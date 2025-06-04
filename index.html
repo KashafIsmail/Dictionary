@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dictionary App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="light-theme">
+<!-- <div class="main"></div> -->
+  <header>
+    <h1>Dictionary</h1>
+    <button id="themeToggle">Dark Mode</button>
+  </header>
+
+  <main>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search for a word..." />
+      <ul id="suggestions"></ul>
+    </div>
+
+    <div id="result" class="hidden">
+      <h2 id="word"></h2>
+      <button id="playSound">🔊</button>
+      <p><strong>Definition:</strong> <span id="definition"></span></p>
+      <p><strong>Urdu Meaning:</strong> <span id="urduMeaning"></span></p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+ 
